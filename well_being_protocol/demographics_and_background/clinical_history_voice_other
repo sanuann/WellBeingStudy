@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "institution",
-    "prefLabel": "Institution",
-    "description": "schema for institution",
+    "@id": "clinical_history_voice_other",
+    "prefLabel": "Clinical history voice other",
+    "description": "schema for clincial voice history of participant",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": {
-        "en": "If you are a university or college student, please write the university's full name (or skip)"
+        "en": "Other:"
     },
 
     "ui": {
