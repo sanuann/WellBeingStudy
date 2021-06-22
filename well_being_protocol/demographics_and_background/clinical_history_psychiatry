@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "diagnosed1",
-    "prefLabel": "Diagnosed",
-    "description": "schema for native diagnosed of participant",
+    "@id": "clinical_history_psychiatry",
+    "prefLabel": "Clinical history psychiatry",
+    "description": "schema for psychiatric history of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Have you ever had or been diagnosed with any of these mental health conditions by a clinician? (select all that apply):",

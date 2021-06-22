@@ -3,8 +3,8 @@
     "@type": "reproschema:Field",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "@id": "race_category",
-    "prefLabel": "race_category",
+    "@id": "race_ethnicity",
+    "prefLabel": "race_ethnicity",
     "responseOptions": {
         "multipleChoice": false,
         "choices": [
