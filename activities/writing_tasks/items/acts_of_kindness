@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "acts_of_kindness",
     "prefLabel": "Acts of kindness",
     "description": "Acts of kindness",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "Recall three acts of kindness: For the next few minutes, please recall a time when you performed kind acts for someone else such as cooking dinner for friends or family, doing a chore for a family member, buying something for someone, or writing a thank you letter. Summarize three of the kind acts you did, who the acts were for and how you and the other people might have felt or reacted.",
     "ui": {
