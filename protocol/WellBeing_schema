@@ -1,0 +1,82 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/496cad232ff858b8d1ee2be63f8c7385e85dc6bf/activities/"
+        }
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "WellBeing_schema",
+    "prefLabel": {
+        "en": "Well Being Protocol",
+        "es": "Protocolo de voz para Covid19"
+    },
+    "description": "Well Being Protocol",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "landingPage": [{
+            "@id": "README-en.md",
+            "@language": "en"
+        },
+        {
+            "@id": "README-es.md",
+            "@language": "es"
+        }
+    ],
+    "ui": {
+        "order": [
+            "../activities/demographics_and_background/demographics_and_background_schema",
+            "../activities/receiving_responses/receiving_responses_schema",
+            "../activities/voice_tasks/voice_tasks_schema",
+            "../activities/writing_tasks/writing_tasks_schema",
+            "activity_path:ThankYou/ThankYou_schema"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "isAbout": "../activities/demographics_and_background/demographics_and_background_schema",
+                "variableName": "demographics_and_background_schema",
+                "prefLabel": {
+                    "en": "Demographics",
+                    "es": "Encuesta sobre COVID19"
+                }
+            },
+            {
+                "isAbout": "../activities/receiving_responses/receiving_responses_schema",
+                "variableName": "receiving_responses_schema",
+                "prefLabel": {
+                    "en": "Receiving Responses",
+                    "es": "Encuesta de Salud Mental"
+                }
+            },
+            {
+                "isAbout": "../activities/voice_tasks/voice_tasks_schema",
+                "variableName": "voice_tasks_schema",
+                "prefLabel": {
+                    "en": "Voice Tasks",
+                    "es": "Tareas de voz"
+                }
+            },
+            {
+                "isAbout": "../activities/writing_tasks/writing_tasks_schema",
+                "variableName": "writing_tasks_schema",
+                "prefLabel": {
+                    "en": "Writing Tasks",
+                    "es": "Tareas de voz"
+                }
+            },
+            {
+                "isAbout": "activity_path:ThankYou/ThankYou_schema",
+                "variableName": "ThankYou_schema",
+                "prefLabel": {
+                    "en": "Submit Responses",
+                    "es": "Enviar respuestas"
+                }
+            }
+        ],
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
+    }
+}
