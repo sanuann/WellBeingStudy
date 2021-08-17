@@ -1,0 +1,65 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "voice_tasks": "https://raw.githubusercontent.com/ReproNim/reproschema-library/496cad232ff858b8d1ee2be63f8c7385e85dc6bf/activities/VoiceTask/items/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "voice_schema",
+    "prefLabel": "voice tasks",
+    "description": "Voice tasks",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "preamble": {
+        "en": "For each task, you should click the <u>Record</u> button before speaking or breathing and then the <u>Stop</u> button once you are done. Use your <u>typical volume and typical pitch</u> in speaking tasks.",
+        "es": "Para cada tarea, debe hacer clic en el botón <u>Grabar</u> antes de hablar o respirar y luego en el botón <u>Detener</u> una vez que haya terminado. Utilice su <u>volumen y tono típicos</u> en las tareasde conversación."
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "audio_check",
+                "isAbout": "voice_tasks:audio_check"
+            },
+            {
+                "variableName": "say_ah",
+                "isAbout": "voice_tasks:say_ah"
+            },
+            {
+                "variableName": "open_response_general_mood",
+                "isAbout": "items/open_response_general_mood"
+            },
+	        {
+                "variableName": "open_response_general_mood_after2",
+                "isAbout": "items/open_response_general_mood_after2"
+            },
+	        {
+                "variableName": "open_response_general_mood_short",
+                "isAbout": "items/open_response_general_mood_short"
+            },
+	        {
+                "variableName": "open_response_rest_of_your_day",
+                "isAbout": "items/open_response_rest_of_your_day"
+            },
+	        {
+                "variableName": "open_response_what_went_well",
+                "isAbout": "items/open_response_what_went_well"
+            },
+	        {
+                "variableName": "rainbow_passage_short_normal",
+                "isAbout": "items/rainbow_passage_short_normal"
+            }
+        ],
+        "order": [
+            "voice_tasks:audio_check",
+            "voice_tasks:say_ah",
+            "items/open_response_general_mood",
+	        "items/open_response_general_mood_after2",
+            "items/open_response_general_mood_short",
+	        "items/open_response_rest_of_your_day",
+	        "items/open_response_what_went_well",
+	        "items/rainbow_passage_short_normal"
+        ],
+        "shuffle": false
+    }
+}
