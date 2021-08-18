@@ -64,8 +64,8 @@
                 }
             },
             {
-                "isAbout": "activity_path:ThankYou/Thankyou_schema",
-                "variableName": "Thankyou_schema",
+                "isAbout": "activity_path:ThankYou/ThankYou_schema",
+                "variableName": "ThankYou_schema",
                 "prefLabel": {
                     "en": "Submit Responses"
                 }
