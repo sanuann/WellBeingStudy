@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
         {
             "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/c5fc804ae394806ab8051942a89b3bcc6c3312ac/activities/"
         }
@@ -14,11 +14,10 @@
     "description": "Well Being Protocol",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "landingPage": [{
+    "landingPage": {
             "@id": "README-en.md",
             "@language": "en"
-        }
-    ],
+    },
     "ui": {
         "order": [
             "../activities/demographics_and_background/demographics_and_background_schema",
