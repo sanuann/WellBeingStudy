@@ -35,10 +35,29 @@
             }
         ],
         "order": [
-            "items/acts_of_kindness",
-	        "items/best_possible_self",
-            "items/big_life_events",
-	        "items/desired_change"
+            "items/age",
+	        "items/clinical_history_neurology",
+            "items/clinical_history_psychiatry",
+	        "items/clinical_history_psychiatry_current",
+            "items/clinical_history_voice",
+            "items/clinical_history_voice_other",
+            "items/dialect",
+            "items/education",
+            "items/employment",
+            "items/employment2",
+            "items/employment2_specify",
+            "items/gender_identity",
+            "items/institution",
+            "items/native_language",
+            "items/race_ethnicity",
+            "items/relationship",
+            "items/respiratory_conditions",
+            "items/respiratory_conditions_specify",
+            "items/smoking",
+            "items/sutva_question",
+            "items/sutva_question2",
+            "items/sutva_question3",
+            "items/vaping"
         ],
         "shuffle": false
     }

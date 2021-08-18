@@ -1,15 +1,15 @@
 module.exports = {
   /* eslint-disable */
-  githubSrc: 'https://raw.githubusercontent.com/sanuann/covid19/master/protocol/Covid19_schema',
+  githubSrc: 'https://raw.githubusercontent.com/sanuann/WellBeingStudy/master/protocol/WellBeingStudy_schema',
   startButton: {
     "en": 'Join',
     "es": 'Participar'
   },
-  assetsPublicPath: '/covid19/',
+  assetsPublicPath: '/WellBeingStudy/',
   backendServer: 'https://sig.mit.edu/vb',
   showHelp: true,
   contact: 'voice_survey@mit.edu',
-  emailSubject: 'Help with Covid19 study',
+  emailSubject: 'Help with WellBeing study',
   checkMediaPermission: true
 };
 
