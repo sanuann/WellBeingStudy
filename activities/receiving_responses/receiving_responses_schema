@@ -7,8 +7,8 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "receiving_responses_schema",
-    "prefLabel": "lyubomirsky affect",
-    "description": "lyubomirsky affect scale",
+    "prefLabel": "receiving responses",
+    "description": "receiving responses",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble": {
@@ -18,27 +18,22 @@
     "ui": {
         "addProperties": [
 	        {
-                "variableName": "acts_of_kindness",
-                "isAbout": "items/acts_of_kindness"
+                "variableName": "feedback_study",
+                "isAbout": "items/feedback_study"
             },
 	        {
-                "variableName": "best_possible_self",
-                "isAbout": "items/best_possible_self"
+                "variableName": "receiving_responses1",
+                "isAbout": "items/receiving_responses1"
             },
 	        {
-                "variableName": "big_life_events",
-                "isAbout": "items/big_life_events"
-            },
-	        {
-                "variableName": "desired_change",
-                "isAbout": "items/desired_change"
+                "variableName": "receiving_responses2",
+                "isAbout": "items/receiving_responses2"
             }
         ],
         "order": [
-            "items/acts_of_kindness",
-	        "items/best_possible_self",
-            "items/big_life_events",
-	        "items/desired_change"
+            "items/feedback_study",
+	        "items/receiving_responses1",
+            "items/receiving_responses2"
         ],
         "shuffle": false
     }
