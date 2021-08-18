@@ -39,40 +39,35 @@
                 "isAbout": "../activities/demographics_and_background/demographics_and_background_schema",
                 "variableName": "demographics_and_background_schema",
                 "prefLabel": {
-                    "en": "Demographics",
-                    "es": "Encuesta sobre COVID19"
+                    "en": "Demographics"
                 }
             },
             {
                 "isAbout": "../activities/receiving_responses/receiving_responses_schema",
                 "variableName": "receiving_responses_schema",
                 "prefLabel": {
-                    "en": "Receiving Responses",
-                    "es": "Encuesta de Salud Mental"
+                    "en": "Receiving Responses"
                 }
             },
             {
                 "isAbout": "../activities/voice_tasks/voice_tasks_schema",
                 "variableName": "voice_tasks_schema",
                 "prefLabel": {
-                    "en": "Voice Tasks",
-                    "es": "Tareas de voz"
+                    "en": "Voice Tasks"
                 }
             },
             {
                 "isAbout": "../activities/writing_tasks/writing_tasks_schema",
                 "variableName": "writing_tasks_schema",
                 "prefLabel": {
-                    "en": "Writing Tasks",
-                    "es": "Tareas de voz"
+                    "en": "Writing Tasks"
                 }
             },
             {
-                "isAbout": "activity_path:ThankYou/ThankYou_schema",
-                "variableName": "ThankYou_schema",
+                "isAbout": "activity_path:ThankYou/Thankyou_schema",
+                "variableName": "Thankyou_schema",
                 "prefLabel": {
-                    "en": "Submit Responses",
-                    "es": "Enviar respuestas"
+                    "en": "Submit Responses"
                 }
             }
         ],
