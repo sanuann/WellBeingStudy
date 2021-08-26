@@ -34,7 +34,7 @@ jobs:
     - name: Check for syntax errors
       run: |
         npm install -g jsonlint
-        grep -r  "@context" activity | cut -d: -f1 | xargs -I fname jsonlint -q fname
+        grep -r  "@context" activities | cut -d: -f1 | xargs -I fname jsonlint -q fname
         grep -r  "@context" protocol | cut -d: -f1 | xargs -I fname jsonlint -q fname
 
     - name: Set up Python 3.8
