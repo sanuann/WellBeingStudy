@@ -18,20 +18,96 @@
     "ui": {
         "addProperties": [
 	        {
-                "variableName": "acts_of_kindness",
-                "isAbout": "items/acts_of_kindness"
+                "variableName": "age",
+                "isAbout": "items/age"
             },
 	        {
-                "variableName": "best_possible_self",
-                "isAbout": "items/best_possible_self"
+                "variableName": "clinical_history_neurology",
+                "isAbout": "items/clinical_history_neurology"
             },
 	        {
-                "variableName": "big_life_events",
-                "isAbout": "items/big_life_events"
+                "variableName": "clinical_history_psychiatry",
+                "isAbout": "items/clinical_history_psychiatry"
             },
 	        {
-                "variableName": "desired_change",
-                "isAbout": "items/desired_change"
+                "variableName": "clinical_history_psychiatry_current",
+                "isAbout": "items/clinical_history_psychiatry_current"
+            },
+            {
+                "variableName": "clinical_history_voice",
+                "isAbout": "items/clinical_history_voice"
+            },
+            {
+                "variableName": "clinical_history_voice_other",
+                "isAbout": "items/clinical_history_voice_other"
+            },
+            {
+                "variableName": "dialect",
+                "isAbout": "items/dialect"
+            },
+            {
+                "variableName": "education",
+                "isAbout": "items/education"
+            },
+            {
+                "variableName": "employment",
+                "isAbout": "items/employment"
+            },
+            {
+                "variableName": "employment2",
+                "isAbout": "items/employment2"
+            },
+            {
+                "variableName": "employment2_specify",
+                "isAbout": "items/employment2_specify"
+            },
+            {
+                "variableName": "gender_identity",
+                "isAbout": "items/gender_identity"
+            },
+            {
+                "variableName": "institution",
+                "isAbout": "items/institution"
+            },
+            {
+                "variableName": "native_language",
+                "isAbout": "items/native_language"
+            },
+            {
+                "variableName": "race_ethnicity",
+                "isAbout": "items/race_ethnicity"
+            },
+            {
+                "variableName": "relationship",
+                "isAbout": "items/relationship"
+            },
+            {
+                "variableName": "respiratory_conditions",
+                "isAbout": "items/respiratory_conditions"
+            },
+            {
+                "variableName": "respiratory_conditions_specify",
+                "isAbout": "items/respiratory_conditions_specify"
+            },
+            {
+                "variableName": "smoking",
+                "isAbout": "items/smoking"
+            },
+            {
+                "variableName": "sutva_question",
+                "isAbout": "items/sutva_question"
+            },
+            {
+                "variableName": "sutva_question2",
+                "isAbout": "items/sutva_question2"
+            },
+            {
+                "variableName": "sutva_question3",
+                "isAbout": "items/sutva_question3"
+            },
+            {
+                "variableName": "vaping",
+                "isAbout": "items/vaping"
             }
         ],
         "order": [
