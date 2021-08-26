@@ -1,0 +1,72 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+        {
+            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/c5fc804ae394806ab8051942a89b3bcc6c3312ac/activities/"
+        }
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "WellBeing_schema",
+    "prefLabel": {
+        "en": "Well Being Protocol",
+        "es": "Protocolo de voz para Covid19"
+    },
+    "description": "Well Being Protocol",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "landingPage": {
+            "@id": "README-en.md",
+            "@language": "en"
+    },
+    "ui": {
+        "order": [
+            "../activities/demographics_and_background/demographics_and_background_schema",
+            "../activities/receiving_responses/receiving_responses_schema",
+            "../activities/voice_tasks/voice_tasks_schema",
+            "../activities/writing_tasks/writing_tasks_schema",
+            "activity_path:ThankYou/ThankYou_schema"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "isAbout": "../activities/demographics_and_background/demographics_and_background_schema",
+                "variableName": "demographics_and_background_schema",
+                "prefLabel": {
+                    "en": "Demographics"
+                }
+            },
+            {
+                "isAbout": "../activities/receiving_responses/receiving_responses_schema",
+                "variableName": "receiving_responses_schema",
+                "prefLabel": {
+                    "en": "Receiving Responses"
+                }
+            },
+            {
+                "isAbout": "../activities/voice_tasks/voice_tasks_schema",
+                "variableName": "voice_tasks_schema",
+                "prefLabel": {
+                    "en": "Voice Tasks"
+                }
+            },
+            {
+                "isAbout": "../activities/writing_tasks/writing_tasks_schema",
+                "variableName": "writing_tasks_schema",
+                "prefLabel": {
+                    "en": "Writing Tasks"
+                }
+            },
+            {
+                "isAbout": "activity_path:ThankYou/ThankYou_schema",
+                "variableName": "ThankYou_schema",
+                "prefLabel": {
+                    "en": "Submit Responses"
+                }
+            }
+        ],
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
+    }
+}
