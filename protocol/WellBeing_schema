@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
             "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/c5fc804ae394806ab8051942a89b3bcc6c3312ac/activities/"
         }
@@ -16,7 +16,7 @@
     "version": "0.0.1",
     "landingPage": {
             "@id": "README-en.md",
-            "@language": "en"
+            "inLanguage": "en"
     },
     "ui": {
         "order": [

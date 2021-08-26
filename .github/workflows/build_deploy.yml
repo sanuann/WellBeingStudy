@@ -3,7 +3,7 @@
 name: CI
 
 env:
-  CHECKSUM: 7eccf6817e16395377a91b1b4248e19b4d6d20db
+  CHECKSUM: cdf82c50426c2036cc45fa2cb6baf04c5412933f
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
@@ -34,7 +34,7 @@ jobs:
     - name: Check for syntax errors
       run: |
         npm install -g jsonlint
-        grep -r  "@context" activity | cut -d: -f1 | xargs -I fname jsonlint -q fname
+        grep -r  "@context" activities | cut -d: -f1 | xargs -I fname jsonlint -q fname
         grep -r  "@context" protocol | cut -d: -f1 | xargs -I fname jsonlint -q fname
 
     - name: Set up Python 3.8

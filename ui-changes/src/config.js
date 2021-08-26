@@ -1,6 +1,6 @@
 module.exports = {
   /* eslint-disable */
-  githubSrc: 'https://raw.githubusercontent.com/sanuann/WellBeingStudy/master/protocol/WellBeingStudy_schema',
+  githubSrc: 'https://raw.githubusercontent.com/sanuann/WellBeingStudy/master/protocol/WellBeing_schema',
   startButton: {
     "en": 'Join',
     "es": 'Participar'
