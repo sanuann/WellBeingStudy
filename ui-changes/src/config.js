@@ -5,7 +5,7 @@ module.exports = {
     "en": 'Join',
     "es": 'Participar'
   },
-  assetsPublicPath: '/WellBeingStudy/',
+  assetsPublicPath: '/well_being_protocol/',
   backendServer: 'https://sig.mit.edu/vb',
   showHelp: true,
   contact: 'voice_survey@mit.edu',
