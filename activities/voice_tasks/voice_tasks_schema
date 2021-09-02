@@ -13,7 +13,7 @@
     "version": "0.0.1",
     "preamble": {
         "en": "Click the <u>Record</u> button before speaking and then the <u>Stop</u> button once you are done. Use your <u>typical volume and typical pitch</u>.",
-        "es": ""
+        "es": "Haga click"
     },
     "ui": {
         "addProperties": [

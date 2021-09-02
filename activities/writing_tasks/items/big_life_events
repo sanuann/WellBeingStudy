@@ -6,7 +6,7 @@
     "description": "Big life events",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "\"Have there been any big life events that have significantly improved or worsened your mental health such as diagnoses/health problems of you or people you know, changes at school/work or in your relationships, etc.?\nYes/No. If Yes, Please explain.\"",
+    "question": "Have there been any big life events that have significantly improved or worsened your mental health such as diagnoses/health problems of you or people you know, changes at school/work or in your relationships, etc.?\nYes/No. If Yes, Please explain.",
     "ui": {
         "inputType": "text"
     },
