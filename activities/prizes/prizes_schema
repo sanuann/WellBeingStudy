@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "prizes_schema",
+    "prefLabel": "prizes",
+    "description": "Prizes",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "participate",
+                "isAbout": "items/participate"
+            },
+            {
+                "variableName": "prizes_10",
+                "isAbout": "items/prizes_10"
+            },
+	        {
+                "variableName": "prizes_20",
+                "isAbout": "items/prizes_20"
+            }
+        ],
+        "order": [
+            "items/participate",
+            "items/prizes_10",
+	        "items/prizes_20"
+        ],
+        "shuffle": false
+    }
+}

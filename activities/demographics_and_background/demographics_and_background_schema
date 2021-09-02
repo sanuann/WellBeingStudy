@@ -135,6 +135,6 @@
             "items/sutva_question3",
             "items/vaping"
         ],
-        "shuffle": false
+        "shuffle": true
     }
 }

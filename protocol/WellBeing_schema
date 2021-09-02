@@ -8,8 +8,8 @@
     "@type": "reproschema:Protocol",
     "@id": "WellBeing_schema",
     "prefLabel": {
-        "en": "Well Being Protocol",
-        "es": "Protocolo de voz para Covid19"
+        "en": "Well-being Protocol",
+        "es": "Protocolo de Bienestar"
     },
     "description": "Well Being Protocol",
     "schemaVersion": "1.0.0-rc4",
@@ -20,14 +20,27 @@
     },
     "ui": {
         "order": [
+            "../activities/audio_check/audio_check_schema",
             "../activities/demographics_and_background/demographics_and_background_schema",
-            "../activities/receiving_responses/receiving_responses_schema",
+            "../activities/questionnaires/mental_health_schema",
             "../activities/voice_tasks/voice_tasks_schema",
             "../activities/writing_tasks/writing_tasks_schema",
+            "../activities/feedback/feedback_schema",
             "activity_path:ThankYou/ThankYou_schema"
         ],
         "shuffle": false,
         "addProperties": [
+                        {
+                "variableName": "audio_check",
+                "isAbout": "voice_tasks:audio_check"
+            },
+            {
+                "isAbout": "../activities/demographics_and_background/demographics_and_background_schema",
+                "variableName": "demographics_and_background_schema",
+                "prefLabel": {
+                    "en": "Demographics"
+                }
+            },
             {
                 "isAbout": "../activities/demographics_and_background/demographics_and_background_schema",
                 "variableName": "demographics_and_background_schema",
