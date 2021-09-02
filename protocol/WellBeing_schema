@@ -20,7 +20,7 @@
     },
     "ui": {
         "order": [
-            "activity_path:VoiceTask/items/audio_check",
+            "../activities/audio_check/audio_check_schema",
             "../activities/demographics_and_background/demographics_and_background_schema",
             "../activities/mental_health/mental_health_schema",
             "../activities/voice_tasks/voice_tasks_schema",
@@ -31,8 +31,8 @@
         "shuffle": false,
         "addProperties": [
                         {
+                "isAbout": "../activities/audio_check/audio_check_schema",
                 "variableName": "audio_check",
-                "isAbout": "activity_path:VoiceTask/items/audio_check",
                 "prefLabel": {
                     "en": "Audio Check"
                 }
