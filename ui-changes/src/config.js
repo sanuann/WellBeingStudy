@@ -2,8 +2,8 @@ module.exports = {
   /* eslint-disable */
   githubSrc: 'https://raw.githubusercontent.com/danielmlow/WellBeingStudy/master/protocol/WellBeing_schema',
   startButton: {
-    "en": 'Begin now!',
-    "es": '¡Comience ahora!'
+    "en": 'Join',
+    "es": 'Participar'
   },
   assetsPublicPath: '/WellBeingStudy/',
   backendServer: 'https://sig.mit.edu/vb',
