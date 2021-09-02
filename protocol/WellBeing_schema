@@ -8,10 +8,10 @@
     "@type": "reproschema:Protocol",
     "@id": "WellBeing_schema",
     "prefLabel": {
-        "en": "Well-being Protocol",
-        "es": "Protocolo de Bienestar"
+        "en": "Wellness Challenge",
+        "es": "Desafío para el bienestar"
     },
-    "description": "Well Being Protocol",
+    "description": "Wellness Challenge",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "landingPage": {
@@ -22,7 +22,7 @@
         "order": [
             "../activities/audio_check/audio_check_schema",
             "../activities/demographics_and_background/demographics_and_background_schema",
-            "../activities/questionnaires/mental_health_schema",
+            "../activities/mental_health/mental_health_schema",
             "../activities/voice_tasks/voice_tasks_schema",
             "../activities/writing_tasks/writing_tasks_schema",
             "../activities/feedback/feedback_schema",
@@ -32,13 +32,9 @@
         "addProperties": [
                         {
                 "variableName": "audio_check",
-                "isAbout": "voice_tasks:audio_check"
-            },
-            {
-                "isAbout": "../activities/demographics_and_background/demographics_and_background_schema",
-                "variableName": "demographics_and_background_schema",
+                "isAbout": "voice_tasks:audio_check",
                 "prefLabel": {
-                    "en": "Demographics"
+                    "en": "Audio Check"
                 }
             },
             {
@@ -49,10 +45,10 @@
                 }
             },
             {
-                "isAbout": "../activities/receiving_responses/receiving_responses_schema",
-                "variableName": "receiving_responses_schema",
+                "isAbout": "../activities/mental_health/mental_health_schema",
+                "variableName": "mental_health_schema",
                 "prefLabel": {
-                    "en": "Receiving Responses"
+                    "en": "Mental Health"
                 }
             },
             {
@@ -67,6 +63,13 @@
                 "variableName": "writing_tasks_schema",
                 "prefLabel": {
                     "en": "Writing Tasks"
+                }
+            },
+            {
+                "isAbout": "../activities/feedback/feedback_schema",
+                "variableName": "feedback_schema",
+                "prefLabel": {
+                    "en": "Feedback"
                 }
             },
             {
