@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": "\"Please think about your best possible social and professional life in 3 years. Imagine that everything has gone as well as it possibly could. Perhaps you have developed good relationships with your friends and been hired or gotten any promotions that you would apply for. Furthermore, you may have gotten involved in new activities and they have gone well. Think of this as the realization of the best possible life you could ever hope for yourself. Let your creativity flow and describe what exactly would happen and how you would feel. \nEvidence: Studies have shown that writing about one’s best possible selve can enhance happiness [Boehm et al. (2011). Cognition and Emotion].\"",
     "ui": {
-        "inputType": "multitext"
+        "inputType": "text"
     },
     "responseOptions": {
         "valueType": "xsd:string",

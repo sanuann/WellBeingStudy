@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": "What would you like to change during this study and in the next few months?",
     "ui": {
-        "inputType": "multitext"
+        "inputType": "text"
     },
     "responseOptions": {
         "valueType": "xsd:string",
