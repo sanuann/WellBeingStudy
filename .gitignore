@@ -10,3 +10,6 @@ cov.xml
 build
 dist
 .gitmodules
+.DS_Store
+*/.DS_Store
+activities/.DS_Store
