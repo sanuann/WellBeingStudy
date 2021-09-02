@@ -20,7 +20,7 @@
     },
     "ui": {
         "order": [
-            "../activities/audio_check/audio_check_schema",
+            "voice_tasks:audio_check",
             "../activities/demographics_and_background/demographics_and_background_schema",
             "../activities/mental_health/mental_health_schema",
             "../activities/voice_tasks/voice_tasks_schema",
