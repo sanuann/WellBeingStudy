@@ -22,7 +22,7 @@
         "order": [
             "../activities/audio_check/audio_check_schema",
             "../activities/demographics_and_background/demographics_and_background_schema",
-            "../activities/mental_health/mental_health_schema",
+            "activity_path:PHQ-9/PHQ9_schema",
             "../activities/voice_tasks/voice_tasks_schema",
             "../activities/writing_tasks/writing_tasks_schema",
             "../activities/feedback/feedback_schema",
@@ -45,10 +45,10 @@
                 }
             },
             {
-                "isAbout": "../activities/mental_health/mental_health_schema",
-                "variableName": "mental_health_schema",
+                "isAbout": "activity_path:PHQ-9/PHQ9_schema",
+                "variableName": "PHQ9_schema",
                 "prefLabel": {
-                    "en": "Mental Health"
+                    "en": "PHQ9"
                 }
             },
             {
