@@ -14,11 +14,11 @@
     "ui": {
         "addProperties": [
 	        {
-                "variableName": "PHQ-9",
+                "variableName": "PHQ9_schema",
                 "isAbout": "activity_path:PHQ-9/PHQ9_schema"
             },
 	        {
-                "variableName": "GAD7",
+                "variableName": "GAD7_schema",
                 "isAbout": "activity_path:GAD7/GAD7_schema"
             }
         ],
