@@ -20,9 +20,11 @@
     },
     "ui": {
         "order": [
-            "voice_tasks:audio_check",
+            "../activities/audio_check/audio_check_schema",
             "../activities/demographics_and_background/demographics_and_background_schema",
             "../activities/mental_health/mental_health_schema",
+            "activity_path:PHQ-9/PHQ9_schema",
+            "activity_path:GAD7/GAD7_schema",
             "../activities/voice_tasks/voice_tasks_schema",
             "../activities/writing_tasks/writing_tasks_schema",
             "../activities/feedback/feedback_schema",
@@ -31,8 +33,8 @@
         "shuffle": false,
         "addProperties": [
                         {
+                "isAbout": "../activities/audio_check/audio_check_schema",
                 "variableName": "audio_check",
-                "isAbout": "voice_tasks:audio_check",
                 "prefLabel": {
                     "en": "Audio Check"
                 }
@@ -46,9 +48,23 @@
             },
             {
                 "isAbout": "../activities/mental_health/mental_health_schema",
-                "variableName": "mental_health_schema",
+                "variableName": "Mental health",
                 "prefLabel": {
                     "en": "Mental Health"
+                }
+            },
+            {
+                "isAbout": "activity_path:PHQ-9/PHQ9_schema",
+                "variableName": "PHQ9_schema",
+                "prefLabel": {
+                    "en": "PHQ9"
+                }
+            },
+            {
+                "isAbout": "activity_path:GAD7/GAD7_schema",
+                "variableName": "GAD7_schema",
+                "prefLabel": {
+                    "en": "GAD7"
                 }
             },
             {
