@@ -26,6 +26,6 @@
             "activity_path:PHQ-9/PHQ9_schema",
             "activity_path:GAD7/GAD7_schema"
         ],
-        "shuffle": false
+        "shuffle": true
     }
 }
