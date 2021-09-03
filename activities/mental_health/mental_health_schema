@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/c5fc804ae394806ab8051942a89b3bcc6c3312ac/activities/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "mental_health",
+    "prefLabel": "mental health",
+    "description": "Mental health and well-being self-report questionnaires",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+	        {
+                "variableName": "PHQ-9",
+                "isAbout": "activities:PHQ-9/PHQ9_schema"
+            },
+	        {
+                "variableName": "GAD7",
+                "isAbout": "activities:GAD7/GAD7_schema"
+            }
+        ],
+        "order": [
+            "activity_path:PHQ-9/PHQ9_schema",
+            "activity_path:GAD7/GAD7_schema"
+        ],
+        "shuffle": true
+    }
+}
