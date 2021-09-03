@@ -24,6 +24,7 @@
             "../activities/demographics_and_background/demographics_and_background_schema",
             "../activities/mental_health/mental_health_schema",
             "activity_path:PHQ-9/PHQ9_schema",
+            "activity_path:GAD7/GAD7_schema",
             "../activities/voice_tasks/voice_tasks_schema",
             "../activities/writing_tasks/writing_tasks_schema",
             "../activities/feedback/feedback_schema",
