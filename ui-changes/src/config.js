@@ -1,11 +1,11 @@
 module.exports = {
   /* eslint-disable */
-  githubSrc: 'https://raw.githubusercontent.com/sanuann/WellBeingStudy/master/protocol/WellBeing_schema',
+  githubSrc: 'https://raw.githubusercontent.com/sensein/WellBeingStudy/master/protocol/WellBeing_schema',
   startButton: {
     "en": 'Join',
     "es": 'Participar'
   },
-  assetsPublicPath: '/well_being_protocol/',
+  assetsPublicPath: '/WellBeingStudy/',
   backendServer: 'https://sig.mit.edu/vb',
   showHelp: true,
   contact: 'voice_survey@mit.edu',
