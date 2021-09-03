@@ -6,7 +6,7 @@
         }
     ],
     "@type": "reproschema:Activity",
-    "@id": "mental_health",
+    "@id": "mental_health_schema",
     "prefLabel": "mental health",
     "description": "Mental health and well-being self-report questionnaires",
     "schemaVersion": "1.0.0-rc4",
