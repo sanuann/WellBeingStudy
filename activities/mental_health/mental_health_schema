@@ -6,7 +6,7 @@
         }
     ],
     "@type": "reproschema:Activity",
-    "@id": "mental_health",
+    "@id": "mental_health_schema",
     "prefLabel": "mental health",
     "description": "Mental health and well-being self-report questionnaires",
     "schemaVersion": "1.0.0-rc4",
@@ -26,6 +26,6 @@
             "activity_path:PHQ-9/PHQ9_schema",
             "activity_path:GAD7/GAD7_schema"
         ],
-        "shuffle": true
+        "shuffle": false
     }
 }
