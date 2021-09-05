@@ -27,7 +27,7 @@
             },
 	        {
                 "variableName": "GQ-6",
-                "isAbout": "activity_path:GQ-6/GQ-6_schema"
+                "isAbout": "activity_path:GQ-6/GQ6_schema"
             },
 	        {
                 "variableName": "TEQ",
@@ -38,7 +38,7 @@
             "activity_path:SFI/SFI_schema",
             "activity_path:MAAS/MAAS_schema",
             "activity_path:SRIS-SF/SRIS-SF_schema",
-            "activity_path:GQ-6/GQ-6_schema",
+            "activity_path:GQ-6/GQ6_schema",
             "activity_path:TEQ/TEQ_schema"
         ],
         "shuffle": false
