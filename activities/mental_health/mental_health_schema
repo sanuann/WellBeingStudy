@@ -34,7 +34,7 @@
                 "isAbout": "activity_path:BFI-2-XS/BFI-2-XS_schema"
             },
 	        {
-                "variableName": "GAD7",
+                "variableName": "PC-PTSD-5",
                 "isAbout": "activity_path:PC-PTSD-5/PC-PTSD-5_schema"
             }
         ],
