@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/1c80a15f021bd9b7d7ec37f46f6f240ce636ee5b/activities/"
+            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/a89b70a1e1e257a904cb8fb161191d05597bd1c0/activities/"
         }
     ],
     "@type": "reproschema:Protocol",
@@ -64,7 +64,7 @@
                 "isAbout": "activity_path:PC-PTSD-5/PC-PTSD-5_schema",
                 "variableName": "PC-PTSD-5_schema",
                 "prefLabel": {
-                    "en": "PC-PTSD-5_schema"
+                    "en": "PTSD"
                 }
             },
             {
