@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "voice_tasks": "https://raw.githubusercontent.com/ReproNim/reproschema-library/1c80a15f021bd9b7d7ec37f46f6f240ce636ee5b/activities/VoiceTask/items/"
+            "voice_tasks": "https://raw.githubusercontent.com/danielmlow/reproschema-library/3ce23c575e71e5e5d8b6d830fb7be793848d8eca/activities/VoiceTask/items/"
         }
     ],
     "@type": "reproschema:Activity",

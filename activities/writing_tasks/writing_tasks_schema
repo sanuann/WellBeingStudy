@@ -1,9 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-        {
-            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/activities/"
-        }
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic"
     ],
     "@type": "reproschema:Activity",
     "@id": "writing_tasks_schema",
