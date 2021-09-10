@@ -46,6 +46,6 @@
             "activity_path:BFI-2-XS/BFI_schema",
             "activity_path:PC-PTSD-5/PC-PTSD-5_schema"
         ],
-        "shuffle": false
+        "shuffle": true
     }
 }
