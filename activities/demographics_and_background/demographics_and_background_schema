@@ -116,7 +116,6 @@
             "activity_path:clinical_history_psychiatry",
 	        "activity_path:clinical_history_psychiatry_current",
             "activity_path:clinical_history_voice",
-            "activity_path:clinical_history_voice_other",
             "activity_path:dialect",
             "activity_path:education",
             "activity_path:employment",
@@ -133,7 +132,6 @@
             "activity_path:sutva_question",
             "activity_path:sutva_question2",
             "activity_path:sutva_question3",
-            "activity_path:vaping"
         ],
         "shuffle": false
     }
