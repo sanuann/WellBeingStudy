@@ -135,6 +135,6 @@
             "activity_path:sutva_question3",
             "activity_path:vaping"
         ],
-        "shuffle": true
+        "shuffle": false
     }
 }
