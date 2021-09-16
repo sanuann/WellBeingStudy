@@ -100,10 +100,6 @@
             {
                 "variableName": "sutva_question3",
                 "isAbout": "activity_path:sutva_question3"
-            },
-            {
-                "variableName": "vaping",
-                "isAbout": "activity_path:vaping"
             }
         ],
         "order": [
