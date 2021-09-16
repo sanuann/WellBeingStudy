@@ -23,3 +23,9 @@ Code to run the MIT Month of Wellness Challenge protocol using Reproschema.
     In Markdown: 
     
     `![Timeline](https://raw.githubusercontent.com/danielmlow/WellBeingStudy/master/protocol/wellbeing_logo.svg)` 
+    
+    
+    
+When referencing to reproschema-library use the latest commit number
+
+    

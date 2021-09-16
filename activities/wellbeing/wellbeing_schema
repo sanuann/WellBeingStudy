@@ -1,0 +1,52 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/b753eba8f78a160705edd2afd44d0c1b3d36ec72/activities/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "wellbeing_schema",
+    "prefLabel": "wellbeing",
+    "description": "wellbeing questionnaires",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+	        {
+                "variableName": "SFI",
+                "isAbout": "activity_path:SFI/SFI_schema"
+            },
+            {
+                "variableName": "SCS-SF",
+                "isAbout": "activity_path:SCS-SF/SCS-SF_schema"
+            },
+
+	        {
+                "variableName": "MAAS",
+                "isAbout": "activity_path:MAAS/MAAS_schema"
+            },
+            {
+                "variableName": "SRIS-SF",
+                "isAbout": "activity_path:SRIS-SF/SRIS-SF_schema"
+            },
+	        {
+                "variableName": "GQ-6",
+                "isAbout": "activity_path:GQ-6/GQ6_schema"
+            },
+	        {
+                "variableName": "TEQ",
+                "isAbout": "activity_path:TEQ/TEQ_schema"
+            }
+        ],
+        "order": [
+            "activity_path:SFI/SFI_schema",
+            "activity_path:SCS-SF/SCS-SF_schema",
+            "activity_path:MAAS/MAAS_schema",
+            "activity_path:SRIS-SF/SRIS-SF_schema",
+            "activity_path:GQ-6/GQ6_schema",
+            "activity_path:TEQ/TEQ_schema"
+        ],
+        "shuffle": false
+    }
+}
