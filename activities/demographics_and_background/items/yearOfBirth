@@ -11,6 +11,7 @@
     "inputType": "year"
   },
   "responseOptions": {
-    "valueType": "xsd:date"
+    "valueType": "xsd:date",
+    "maxValue": 2004
   }
 }

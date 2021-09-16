@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "voice_tasks": "https://raw.githubusercontent.com/danielmlow/reproschema-library/3ce23c575e71e5e5d8b6d830fb7be793848d8eca/activities/VoiceTask/items/"
+            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/3ce23c575e71e5e5d8b6d830fb7be793848d8eca/activities/demographics_and_background_information_v1/items/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -14,123 +14,127 @@
     "ui": {
         "addProperties": [
 	        {
-                "variableName": "age",
-                "isAbout": "items/age"
+                "variableName": "yearOfBirth",
+                "isAbout": "items/yearOfBirth"
+            },
+            {
+                "variableName": "stateOfResidence",
+                "isAbout": "activity_path:stateOfResidence"
             },
 	        {
                 "variableName": "clinical_history_neurology",
-                "isAbout": "items/clinical_history_neurology"
+                "isAbout": "activity_path:clinical_history_neurology"
             },
 	        {
                 "variableName": "clinical_history_psychiatry",
-                "isAbout": "items/clinical_history_psychiatry"
+                "isAbout": "activity_path:clinical_history_psychiatry"
             },
 	        {
                 "variableName": "clinical_history_psychiatry_current",
-                "isAbout": "items/clinical_history_psychiatry_current"
+                "isAbout": "activity_path:clinical_history_psychiatry_current"
             },
             {
                 "variableName": "clinical_history_voice",
-                "isAbout": "items/clinical_history_voice"
+                "isAbout": "activity_path:clinical_history_voice"
             },
             {
                 "variableName": "clinical_history_voice_other",
-                "isAbout": "items/clinical_history_voice_other"
+                "isAbout": "activity_path:clinical_history_voice_other"
             },
             {
                 "variableName": "dialect",
-                "isAbout": "items/dialect"
+                "isAbout": "activity_path:dialect"
             },
             {
                 "variableName": "education",
-                "isAbout": "items/education"
+                "isAbout": "activity_path:education"
             },
             {
                 "variableName": "employment",
-                "isAbout": "items/employment"
+                "isAbout": "activity_path:employment"
             },
             {
                 "variableName": "employment2",
-                "isAbout": "items/employment2"
+                "isAbout": "activity_path:employment2"
             },
             {
                 "variableName": "employment2_specify",
-                "isAbout": "items/employment2_specify"
+                "isAbout": "activity_path:employment2_specify"
             },
             {
                 "variableName": "gender_identity",
-                "isAbout": "items/gender_identity"
+                "isAbout": "activity_path:gender_identity"
             },
             {
                 "variableName": "institution",
-                "isAbout": "items/institution"
+                "isAbout": "activity_path:institution"
             },
             {
                 "variableName": "native_language",
-                "isAbout": "items/native_language"
+                "isAbout": "activity_path:native_language"
             },
             {
-                "variableName": "race_ethnicity",
-                "isAbout": "items/race_ethnicity"
+                "variableName": "race_ethnicity_global",
+                "isAbout": "activity_path:race_ethnicity_global"
             },
             {
                 "variableName": "relationship",
-                "isAbout": "items/relationship"
+                "isAbout": "activity_path:relationship"
             },
             {
                 "variableName": "respiratory_conditions",
-                "isAbout": "items/respiratory_conditions"
+                "isAbout": "activity_path:respiratory_conditions"
             },
             {
                 "variableName": "respiratory_conditions_specify",
-                "isAbout": "items/respiratory_conditions_specify"
+                "isAbout": "activity_path:respiratory_conditions_specify"
             },
             {
                 "variableName": "smoking",
-                "isAbout": "items/smoking"
+                "isAbout": "activity_path:smoking"
             },
             {
                 "variableName": "sutva_question",
-                "isAbout": "items/sutva_question"
+                "isAbout": "activity_path:sutva_question"
             },
             {
                 "variableName": "sutva_question2",
-                "isAbout": "items/sutva_question2"
+                "isAbout": "activity_path:sutva_question2"
             },
             {
                 "variableName": "sutva_question3",
-                "isAbout": "items/sutva_question3"
+                "isAbout": "activity_path:sutva_question3"
             },
             {
                 "variableName": "vaping",
-                "isAbout": "items/vaping"
+                "isAbout": "activity_path:vaping"
             }
         ],
         "order": [
-            "items/age",
-	        "items/clinical_history_neurology",
-            "items/clinical_history_psychiatry",
-	        "items/clinical_history_psychiatry_current",
-            "items/clinical_history_voice",
-            "items/clinical_history_voice_other",
-            "items/dialect",
-            "items/education",
-            "items/employment",
-            "items/employment2",
-            "items/employment2_specify",
-            "items/gender_identity",
-            "items/institution",
-            "items/native_language",
-            "items/race_ethnicity",
-            "items/relationship",
-            "items/respiratory_conditions",
-            "items/respiratory_conditions_specify",
-            "items/smoking",
-            "items/sutva_question",
-            "items/sutva_question2",
-            "items/sutva_question3",
-            "items/vaping"
+            "items/yearOfBirth",
+	        "activity_path:clinical_history_neurology",
+            "activity_path:clinical_history_psychiatry",
+	        "activity_path:clinical_history_psychiatry_current",
+            "activity_path:clinical_history_voice",
+            "activity_path:clinical_history_voice_other",
+            "activity_path:dialect",
+            "activity_path:education",
+            "activity_path:employment",
+            "activity_path:employment2",
+            "activity_path:employment2_specify",
+            "activity_path:gender_identity",
+            "activity_path:institution",
+            "activity_path:native_language",
+            "activity_path:race_ethnicity",
+            "activity_path:relationship",
+            "activity_path:respiratory_conditions",
+            "activity_path:respiratory_conditions_specify",
+            "activity_path:smoking",
+            "activity_path:sutva_question",
+            "activity_path:sutva_question2",
+            "activity_path:sutva_question3",
+            "activity_path:vaping"
         ],
-        "shuffle": false
+        "shuffle": true
     }
 }
