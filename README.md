@@ -28,4 +28,22 @@ Code to run the MIT Month of Wellness Challenge protocol using Reproschema.
     
 When referencing to reproschema-library use the latest commit number
 
+
+
+
+Use the following values for these item responses:
+            {
+                "value": 0,
+                "name": "Prefer not to disclose"
+            },
+            {
+                "value": -1,
+                "name": "Other"
+            },
+             {
+                "value": 999,
+                "name": "None"
+             }
+
+
     
