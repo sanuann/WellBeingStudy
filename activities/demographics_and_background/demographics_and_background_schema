@@ -123,7 +123,7 @@
             "activity_path:smoking",
             "activity_path:sutva_question",
             "activity_path:sutva_question2",
-            "activity_path:sutva_question3",
+            "activity_path:sutva_question3"
         ],
         "shuffle": false
     }
