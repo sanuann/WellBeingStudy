@@ -38,10 +38,6 @@
                 "isAbout": "activity_path:clinical_history_voice"
             },
             {
-                "variableName": "clinical_history_voice_other",
-                "isAbout": "activity_path:clinical_history_voice_other"
-            },
-            {
                 "variableName": "dialect",
                 "isAbout": "activity_path:dialect"
             },
