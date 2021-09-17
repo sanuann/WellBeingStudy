@@ -37,7 +37,7 @@
             {
                 "variableName": "clinical_history_psychiatry_other",
                 "isAbout": "activity_path:clinical_history_psychiatry_other",
-                "isVis": "clinical_history_psychiatry === -1"
+                "isVis": "clinical_history_psychiatry.includes(-1)"
             },
 	        {
                 "variableName": "clinical_history_psychiatry_current",
@@ -56,6 +56,11 @@
             {
                 "variableName": "clinical_history_voice",
                 "isAbout": "activity_path:clinical_history_voice"
+            },
+            {
+                "variableName": "clinical_history_voice_other",
+                "isAbout": "activity_path:clinical_history_voice_other",
+                "isVis": "clinical_history_voice === -1"
             },
             {
                 "variableName": "dialect",
@@ -131,6 +136,7 @@
 	        "activity_path:clinical_history_psychiatry_current_only_some",
 	        "activity_path:clinical_history_psychiatry_current_only_some_other",
             "activity_path:clinical_history_voice",
+            "activity_path:clinical_history_voice_other",
             "activity_path:dialect",
             "activity_path:education",
             "activity_path:employment",
