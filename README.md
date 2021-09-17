@@ -32,6 +32,7 @@ When referencing to reproschema-library use the latest commit number
 
 
 Use the following values for these item responses:
+```
             {
                 "value": 0,
                 "name": "Prefer not to disclose"
@@ -45,5 +46,5 @@ Use the following values for these item responses:
                 "name": "None"
              }
 
-
+```
     
