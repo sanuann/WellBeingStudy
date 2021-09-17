@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/ae6a0be6c69b1d4f225248485e77a788a7c634f6/activities/demographics_and_background_information_v1/items/"
+            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/4878f183071998667c2aa191d66177b8c1ad4ff9/activities/demographics_and_background_information_v1/items/"
         }
     ],
     "@type": "reproschema:Activity",
