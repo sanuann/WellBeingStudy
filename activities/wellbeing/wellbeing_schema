@@ -18,6 +18,10 @@
                 "isAbout": "activity_path:SFI/SFI_schema"
             },
             {
+                "variableName": "LAS",
+                "isAbout": "activity_path:LAS/LAS_schema"
+            },
+            {
                 "variableName": "SCS-SF",
                 "isAbout": "activity_path:SCS-SF/SCS-SF_schema"
             },
@@ -41,6 +45,7 @@
         ],
         "order": [
             "activity_path:SFI/SFI_schema",
+            "activity_path:LAS/LAS_schema",
             "activity_path:SCS-SF/SCS-SF_schema",
             "activity_path:MAAS/MAAS_schema",
             "activity_path:SRIS-SF/SRIS-SF_schema",
