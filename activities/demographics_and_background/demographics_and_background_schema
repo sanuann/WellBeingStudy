@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/e2ee3957fd3a65d22520db8bf9241f0f5364a94c/activities/demographics_and_background_information_v1/items/"
+            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/25734a43c4d889e29d07fbbe687b17b6bfb2d308/activities/demographics_and_background_information_v1/items/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -101,7 +101,6 @@
                 "variableName": "race_ethnicity_global_other",
                 "isAbout": "activity_path:race_ethnicity_global_other",
                 "isVis": "race_ethnicity_global.includes(-1)"
-
             },
             {
                 "variableName": "relationship",
