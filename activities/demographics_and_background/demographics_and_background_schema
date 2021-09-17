@@ -25,6 +25,11 @@
                 "variableName": "clinical_history_neurology",
                 "isAbout": "activity_path:clinical_history_neurology"
             },
+            {
+                "variableName": "clinical_history_neurology_other",
+                "isAbout": "activity_path:clinical_history_neurology_other",
+                "isVis": "clinical_history_neurology === -1"
+            },
 	        {
                 "variableName": "clinical_history_psychiatry",
                 "isAbout": "activity_path:clinical_history_psychiatry"
@@ -32,7 +37,7 @@
             {
                 "variableName": "clinical_history_psychiatry_other",
                 "isAbout": "activity_path:clinical_history_psychiatry_other",
-                "isVis": "clinical_history_psychiatry === -1"
+                "isVis": "clinical_history_psychiatry === 998"
             },
 	        {
                 "variableName": "clinical_history_psychiatry_current",
