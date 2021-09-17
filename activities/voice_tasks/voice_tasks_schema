@@ -27,7 +27,7 @@
             },
             {
                 "variableName": "free_speech_general_mood",
-                "isAbout": "voice_tasks:free_speech_general_mood",
+                "isAbout": "voice_tasks:free_speech_general_mood"
             },
 	        {
                 "variableName": "rainbow_passage_short_normal",
