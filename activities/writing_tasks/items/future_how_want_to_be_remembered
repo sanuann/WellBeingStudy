@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "future_how_want_to_be_remembered",
+    "prefLabel": "future_how_want_to_be_remembered",
+    "description": "future_how_want_to_be_remembered",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "How do you want to be remembered at the end of your life by the people who know you well?",
+    "ui": {
+        "inputType": "textarea"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 10000
+    }
+}

@@ -9,34 +9,40 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble": {
-        "en": "For each task, you should click the <u>Record</u> button before speaking or breathing and then the <u>Stop</u> button once you are done. Use your <u>typical volume and typical pitch</u> in speaking tasks.",
-        "es": "Para cada tarea, debe hacer clic en el botón <u>Grabar</u> antes de hablar o respirar y luego en el botón <u>Detener</u> una vez que haya terminado. Utilice su <u>volumen y tono típicos</u> en las tareasde conversación."
+        "en": "Write continuously and honestly, your answers will be anonymous, and don’t worry about grammar.",
+        "es": ""
     },
     "ui": {
         "addProperties": [
 	        {
-                "variableName": "acts_of_kindness",
-                "isAbout": "items/acts_of_kindness"
+                "variableName": "future_how_want_to_be_remembered",
+                "isAbout": "items/future_how_want_to_be_remembered"
             },
 	        {
-                "variableName": "best_possible_self",
-                "isAbout": "items/best_possible_self"
+                "variableName": "past_happiest_moments",
+                "isAbout": "items/past_happiest_moments"
             },
 	        {
                 "variableName": "big_life_events",
                 "isAbout": "items/big_life_events"
             },
+            {
+                "variableName": "past_something_good",
+                "isAbout": "items/past_something_good"
+            },
 	        {
-                "variableName": "desired_change",
-                "isAbout": "items/desired_change"
+                "variableName": "future_desired_change",
+                "isAbout": "items/future_desired_change"
             }
         ],
         "order": [
-            "items/acts_of_kindness",
-	        "items/best_possible_self",
-            "items/big_life_events",
-	        "items/desired_change"
+
+	        "items/past_something_good",
+	        "items/future_desired_change",
+            "items/past_happiest_moments",
+            "items/future_how_want_to_be_remembered",
+	        "items/big_life_events"
         ],
-        "shuffle": false
+        "shuffle": true
     }
 }

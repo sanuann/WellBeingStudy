@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "past_happiest_moments",
+    "prefLabel": "past_happiest_moments",
+    "description": "past_happiest_moments",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "What were some of the happiest moments of your life? Where were you? What happened? Why did they make you happy?",
+    "ui": {
+        "inputType": "textarea"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 10000
+    }
+}
