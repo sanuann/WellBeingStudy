@@ -29,9 +29,24 @@
                 "variableName": "clinical_history_psychiatry",
                 "isAbout": "activity_path:clinical_history_psychiatry"
             },
+            {
+                "variableName": "clinical_history_psychiatry_other",
+                "isAbout": "activity_path:clinical_history_psychiatry_other",
+                "isVis": "clinical_history_psychiatry === -1"
+            },
 	        {
                 "variableName": "clinical_history_psychiatry_current",
                 "isAbout": "activity_path:clinical_history_psychiatry_current"
+            },
+            {
+                "variableName": "clinical_history_psychiatry_current_only_some",
+                "isAbout": "activity_path:clinical_history_psychiatry_current_only_some",
+                "isVis": "clinical_history_psychiatry_current === 2"
+            },
+            {
+                "variableName": "clinical_history_psychiatry_current_only_some_other",
+                "isAbout": "activity_path:clinical_history_psychiatry_current_only_some_other",
+                "isVis": "clinical_history_psychiatry_current_only_some === -1"
             },
             {
                 "variableName": "clinical_history_voice",
@@ -50,7 +65,7 @@
                 "isAbout": "activity_path:employment"
             },
             {
-                "variableName": "employment2",
+                "variableName": "employment_categories",
                 "isAbout": "activity_path:employment2"
             },
             {
@@ -106,13 +121,15 @@
             "items/yearOfBirth",
 	        "activity_path:clinical_history_neurology",
             "activity_path:clinical_history_psychiatry",
+            "activity_path:clinical_history_psychiatry_other",
 	        "activity_path:clinical_history_psychiatry_current",
+	        "activity_path:clinical_history_psychiatry_current_only_some",
+	        "activity_path:clinical_history_psychiatry_current_only_some_other",
             "activity_path:clinical_history_voice",
             "activity_path:dialect",
             "activity_path:education",
             "activity_path:employment",
-            "activity_path:employment2",
-            "activity_path:employment2_specify",
+            "activity_path:employment_categories",
             "activity_path:gender_identity",
             "activity_path:institution",
             "activity_path:native_language",

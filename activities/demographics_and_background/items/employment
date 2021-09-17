@@ -21,8 +21,16 @@
                 "value": 0
             },
             {
-                "name": "Yes",
+                "name": "Part time",
                 "value": 1
+            },
+            {
+                "name": "Full time",
+                "value": 2
+            },
+            {
+                "name": "Other",
+                "value": 2
             }
         ]
     }
