@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/c8f2a2f6788e2d8031b8467318ab048e3cf2ce28/activities/demographics_and_background_information_v1/items/"
+            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/9c44a1b19ebe8e4450e554e732f4ec2f38bf2897/activities/demographics_and_background_information_v1/items/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -28,7 +28,7 @@
             {
                 "variableName": "clinical_history_neurology_other",
                 "isAbout": "activity_path:clinical_history_neurology_other",
-                "isVis": "clinical_history_neurology === -1"
+                "isVis": "clinical_history_neurology.includes(-1)"
             },
 	        {
                 "variableName": "clinical_history_psychiatry",
@@ -41,7 +41,8 @@
             },
 	        {
                 "variableName": "clinical_history_psychiatry_current",
-                "isAbout": "activity_path:clinical_history_psychiatry_current"
+                "isAbout": "activity_path:clinical_history_psychiatry_current",
+                "isVis": "!clinical_history_psychiatry.includes(999)"
             },
             {
                 "variableName": "clinical_history_psychiatry_current_only_some",
@@ -51,7 +52,12 @@
             {
                 "variableName": "clinical_history_psychiatry_current_only_some_other",
                 "isAbout": "activity_path:clinical_history_psychiatry_current_only_some_other",
-                "isVis": "clinical_history_psychiatry_current_only_some === -1"
+                "isVis": "clinical_history_psychiatry_current_only_some.includes(-1)"
+            },
+            {
+                "variableName": "clinical_history_psychiatry_treatment",
+                "isAbout": "activity_path:clinical_history_psychiatry_treatment",
+                "isVis": "clinical_history_psychiatry_current === 2"
             },
             {
                 "variableName": "clinical_history_voice",
@@ -60,7 +66,7 @@
             {
                 "variableName": "clinical_history_voice_other",
                 "isAbout": "activity_path:clinical_history_voice_other",
-                "isVis": "clinical_history_voice === -1"
+                "isVis": "clinical_history_voice.includes(-1)"
             },
             {
                 "variableName": "dialect",
@@ -135,6 +141,7 @@
 	        "activity_path:clinical_history_psychiatry_current",
 	        "activity_path:clinical_history_psychiatry_current_only_some",
 	        "activity_path:clinical_history_psychiatry_current_only_some_other",
+	        "activity_path:clinical_history_psychiatry_treatment",
             "activity_path:clinical_history_voice",
             "activity_path:clinical_history_voice_other",
             "activity_path:dialect",
