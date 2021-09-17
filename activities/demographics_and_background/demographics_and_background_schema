@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/4878f183071998667c2aa191d66177b8c1ad4ff9/activities/demographics_and_background_information_v1/items/"
+            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/c8f2a2f6788e2d8031b8467318ab048e3cf2ce28/activities/demographics_and_background_information_v1/items/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -37,7 +37,7 @@
             {
                 "variableName": "clinical_history_psychiatry_other",
                 "isAbout": "activity_path:clinical_history_psychiatry_other",
-                "isVis": "clinical_history_psychiatry === 998"
+                "isVis": "clinical_history_psychiatry === -1"
             },
 	        {
                 "variableName": "clinical_history_psychiatry_current",
