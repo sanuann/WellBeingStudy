@@ -31,13 +31,6 @@
         ],
         "shuffle": false,
         "addProperties": [
-                        {
-                "isAbout": "../activities/audio_check/audio_check_schema",
-                "variableName": "audio_check",
-                "prefLabel": {
-                    "en": "Audio Check"
-                }
-            },
             {
                 "isAbout": "../activities/demographics_and_background/demographics_and_background_schema",
                 "variableName": "demographics_and_background_schema",
