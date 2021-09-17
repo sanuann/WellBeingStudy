@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": "Is there anything about the study you would improve? Which parts did you like and which parts did you dislike? (or you can skip this item)",
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string",
