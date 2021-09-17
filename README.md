@@ -48,3 +48,10 @@ Use the following values for these item responses:
 
 ```
     
+
+
+
+use `clinical_history_psychiatry.includes(-1)` instead of `===` since it is a multiple choice
+
+and use `!clinical_history_psychiatry.includes(-1)` which starts with `!` to show item if it is false. 
+
