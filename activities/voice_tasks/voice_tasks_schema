@@ -7,7 +7,7 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "voice_tasks_schema",
-    "prefLabel": "voice tasks",
+    "prefLabel": "Voice tasks",
     "description": "Voice tasks",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",

@@ -7,7 +7,7 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "demographics_and_background_schema",
-    "prefLabel": "demographics",
+    "prefLabel": "Demographics",
     "description": "demographics and background",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
@@ -42,7 +42,7 @@
 	        {
                 "variableName": "clinical_history_psychiatry_current",
                 "isAbout": "activity_path:clinical_history_psychiatry_current",
-                "isVis": "clinical_history_psychiatry.includes(999)"
+                "isVis": "!clinical_history_psychiatry.includes(999)"
             },
             {
                 "variableName": "clinical_history_psychiatry_current_only_some",
