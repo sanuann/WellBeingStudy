@@ -31,9 +31,9 @@
         ],
         "shuffle": false,
         "addProperties": [
-                        {
+            {
                 "isAbout": "../activities/audio_check/audio_check_schema",
-                "variableName": "audio_check",
+                "variableName": "audio_check_schema",
                 "prefLabel": {
                     "en": "Audio Check"
                 }
