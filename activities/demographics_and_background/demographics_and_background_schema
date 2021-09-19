@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/7e73f9c4e6c9e2664bfeb460b1779686ee46c7f6/activities/demographics_and_background_information_v1/items/"
+            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/b5d757202afb2f3feb59d4390573c3997e005a7e/activities/demographics_and_background_information_v1/items/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -69,6 +69,15 @@
                 "isVis": "clinical_history_voice.includes(-1)"
             },
             {
+                "variableName": "respiratory_conditions",
+                "isAbout": "activity_path:respiratory_conditions"
+            },
+            {
+                "variableName": "respiratory_conditions_specify",
+                "isAbout": "activity_path:respiratory_conditions_specify",
+                "isVis": "respiratory_conditions === 1"
+            },
+            {
                 "variableName": "dialect",
                 "isAbout": "activity_path:dialect"
             },
@@ -105,15 +114,6 @@
             {
                 "variableName": "relationship",
                 "isAbout": "activity_path:relationship"
-            },
-            {
-                "variableName": "respiratory_conditions",
-                "isAbout": "activity_path:respiratory_conditions"
-            },
-            {
-                "variableName": "respiratory_conditions_specify",
-                "isAbout": "activity_path:respiratory_conditions_specify",
-                "isVis": "respiratory_conditions === 1"
             },
             {
                 "variableName": "smoking",
