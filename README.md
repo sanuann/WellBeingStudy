@@ -55,3 +55,11 @@ use `clinical_history_psychiatry.includes(-1)` instead of `===` since it is a mu
 
 and use `!clinical_history_psychiatry.includes(-1)` which starts with `!` to show item if it is false. 
 
+
+
+### Tests
+
+* Make sure there are no repeated values in radio items.
+* perhaps use integer for radio items instead of string. 
+* `variableName` is not always needed. Only when re-referencing it to use isVis for instance.
+* 
