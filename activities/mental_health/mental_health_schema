@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/f6de7d912afda3b3c04f768ad2fee46d2f0d1f99/activities/"
+            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/0bc8676139dc74a7472f222c3ecd2c81ad19b407/activities/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -22,27 +22,27 @@
                 "isAbout": "activity_path:GAD7/GAD7_schema"
             },
 	        {
-                "variableName": "PHQeating",
+                "variableName": "PHQeating_schema",
                 "isAbout": "activity_path:PHQeating/PHQeating_schema"
             },
 	        {
-                "variableName": "PHQalcohol",
+                "variableName": "PHQalcohol_schema",
                 "isAbout": "activity_path:PHQalcohol/PHQalcohol_schema"
             },
 	        {
-                "variableName": "BFI-2-XS",
+                "variableName": "BFI-2-XS_schema",
                 "isAbout": "activity_path:BFI-2-XS/BFI_schema"
             },
 	        {
-                "variableName": "PC-PTSD-5",
+                "variableName": "PC-PTSD-5_schema",
                 "isAbout": "activity_path:PC-PTSD-5/PC-PTSD-5_schema"
             }
         ],
         "order": [
-            "activity_path:PHQ-9/PHQ9_schema",
-            "activity_path:GAD7/GAD7_schema",
             "activity_path:PHQeating/PHQeating_schema",
             "activity_path:PHQalcohol/PHQalcohol_schema",
+            "activity_path:PHQ-9/PHQ9_schema",
+            "activity_path:GAD7/GAD7_schema",
             "activity_path:BFI-2-XS/BFI_schema",
             "activity_path:PC-PTSD-5/PC-PTSD-5_schema"
         ],
