@@ -36,7 +36,6 @@ jobs:
         npm install -g jsonlint
         grep -r  "@context" activities | cut -d: -f1 | xargs -I fname jsonlint -q fname
         grep -r  "@context" protocol | cut -d: -f1 | xargs -I fname jsonlint -q fname
-
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
@@ -61,7 +60,6 @@ jobs:
         npm install
         npm run build
         touch dist/.nojekyll
-
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
       if: github.ref == 'refs/heads/master'
