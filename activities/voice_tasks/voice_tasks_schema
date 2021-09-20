@@ -2,12 +2,12 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "voice_tasks": "https://raw.githubusercontent.com/danielmlow/reproschema-library/3ce23c575e71e5e5d8b6d830fb7be793848d8eca/activities/VoiceTask/items/"
+            "voice_tasks": "https://raw.githubusercontent.com/danielmlow/reproschema-library/537353aa77518810811649b9e2f753476a729ef3/activities/VoiceTask/items/"
         }
     ],
     "@type": "reproschema:Activity",
     "@id": "voice_tasks_schema",
-    "prefLabel": "voice tasks",
+    "prefLabel": "Voice tasks",
     "description": "Voice tasks",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
@@ -21,20 +21,25 @@
                 "variableName": "say_ah",
                 "isAbout": "voice_tasks:say_ah"
             },
-	        {
-                "variableName": "open_response_what_went_well",
-                "isAbout": "items/open_response_what_went_well"
+            {
+                "variableName": "animal_fluency",
+                "isAbout": "voice_tasks:animal_fluency"
+            },
+            {
+                "variableName": "free_speech_general_mood",
+                "isAbout": "voice_tasks:free_speech_general_mood"
             },
 	        {
                 "variableName": "rainbow_passage_short_normal",
-                "isAbout": "items/rainbow_passage_short_normal"
+                "isAbout": "voice_tasks:rainbow_passage_short_normal"
             }
         ],
         "order": [
             "voice_tasks:say_ah",
-            "items/open_response_what_went_well",
-	        "items/rainbow_passage_short_normal"
+            "voice_tasks:free_speech_general_mood",
+	        "voice_tasks:rainbow_passage_short_normal",
+	        "voice_tasks:animal_fluency"
         ],
-        "shuffle": true
+        "shuffle": false
     }
 }

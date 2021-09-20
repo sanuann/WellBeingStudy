@@ -28,4 +28,38 @@ Code to run the MIT Month of Wellness Challenge protocol using Reproschema.
     
 When referencing to reproschema-library use the latest commit number
 
+
+
+
+Use the following values for these item responses:
+```
+            {
+                "value": 0,
+                "name": "Prefer not to disclose"
+            },
+            {
+                "value": -1,
+                "name": "Other"
+            },
+             {
+                "value": 999,
+                "name": "None"
+             }
+
+```
     
+
+
+
+use `clinical_history_psychiatry.includes(-1)` instead of `===` since it is a multiple choice
+
+and use `!clinical_history_psychiatry.includes(-1)` which starts with `!` to show item if it is false. 
+
+
+
+### Tests
+
+* Make sure there are no repeated values in radio items.
+* perhaps use integer for radio items instead of string. 
+* `variableName` is not always needed. Only when re-referencing it to use isVis for instance.
+* 

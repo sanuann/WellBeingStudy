@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/b753eba8f78a160705edd2afd44d0c1b3d36ec72/activities/"
+            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/f499fdedc2947fc7f586775236e981cc44f10d45/activities/"
         }
     ],
     "@type": "reproschema:Protocol",
@@ -31,51 +31,51 @@
         ],
         "shuffle": false,
         "addProperties": [
-                        {
+            {
                 "isAbout": "../activities/audio_check/audio_check_schema",
                 "variableName": "audio_check",
                 "prefLabel": {
-                    "en": "Audio Check"
+                    "en": "Audio check"
                 }
             },
             {
                 "isAbout": "../activities/demographics_and_background/demographics_and_background_schema",
-                "variableName": "demographics_and_background_schema",
+                "variableName": "demographics_and_background",
                 "prefLabel": {
                     "en": "Demographics"
                 }
             },
             {
                 "isAbout": "../activities/mental_health/mental_health_schema",
-                "variableName": "Mental health",
+                "variableName": "mental_health",
                 "prefLabel": {
                     "en": "Mental Health"
                 }
             },
             {
                 "isAbout": "../activities/wellbeing/wellbeing_schema",
-                "variableName": "wellbeing_schema",
+                "variableName": "wellbeing",
                 "prefLabel": {
                     "en": "Well-being"
                 }
             },
             {
                 "isAbout": "../activities/voice_tasks/voice_tasks_schema",
-                "variableName": "voice_tasks_schema",
+                "variableName": "voice_tasks",
                 "prefLabel": {
                     "en": "Voice Tasks"
                 }
             },
             {
                 "isAbout": "../activities/writing_tasks/writing_tasks_schema",
-                "variableName": "writing_tasks_schema",
+                "variableName": "writing_tasks",
                 "prefLabel": {
                     "en": "Writing Tasks"
                 }
             },
             {
                 "isAbout": "../activities/feedback/feedback_schema",
-                "variableName": "feedback_schema",
+                "variableName": "feedback",
                 "prefLabel": {
                     "en": "Feedback"
                 }
@@ -84,7 +84,7 @@
                 "isAbout": "activity_path:ThankYou/ThankYou_schema",
                 "variableName": "ThankYou_schema",
                 "prefLabel": {
-                    "en": "Submit Responses"
+                    "en": "Submit responses"
                 }
             }
         ],

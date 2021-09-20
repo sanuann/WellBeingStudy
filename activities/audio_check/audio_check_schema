@@ -2,12 +2,12 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "voice_tasks": "https://raw.githubusercontent.com/danielmlow/reproschema-library/b753eba8f78a160705edd2afd44d0c1b3d36ec72/activities/VoiceTask/items/"
+            "voice_tasks": "https://raw.githubusercontent.com/danielmlow/reproschema-library/f499fdedc2947fc7f586775236e981cc44f10d45/activities/VoiceTask/items/"
         }
     ],
     "@type": "reproschema:Activity",
     "@id": "audio_check_schema",
-    "prefLabel": "audio check",
+    "prefLabel": "Audio check",
     "description": "Audio check",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
