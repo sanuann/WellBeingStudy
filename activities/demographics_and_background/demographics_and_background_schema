@@ -92,7 +92,7 @@
             {
                 "variableName": "employment_specify",
                 "isAbout": "activity_path:employment_specify",
-                "IsVis": "employment.includes(-1)"
+                "isVis": "employment.includes(-1)"
             },
             {
                 "variableName": "gender_identity",
