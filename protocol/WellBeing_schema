@@ -29,7 +29,7 @@
             "../activities/feedback/feedback_schema",
             "activity_path:ThankYou/ThankYou_schema"
         ],
-        "shuffle": false,
+        "shuffle": true,
         "addProperties": [
             {
                 "isAbout": "../activities/audio_check/audio_check_schema",
@@ -46,13 +46,6 @@
                 }
             },
             {
-                "isAbout": "../activities/mental_health/mental_health_schema",
-                "variableName": "mental_health",
-                "prefLabel": {
-                    "en": "Mental Health"
-                }
-            },
-            {
                 "isAbout": "../activities/wellbeing/wellbeing_schema",
                 "variableName": "wellbeing",
                 "prefLabel": {
@@ -64,6 +57,13 @@
                 "variableName": "voice_tasks",
                 "prefLabel": {
                     "en": "Voice Tasks"
+                }
+            },
+            {
+                "isAbout": "../activities/mental_health/mental_health_schema",
+                "variableName": "mental_health",
+                "prefLabel": {
+                    "en": "Mental Health"
                 }
             },
             {
