@@ -52,6 +52,6 @@
             "activity_path:GQ-6/GQ6_schema",
             "activity_path:TEQ/TEQ_schema"
         ],
-        "shuffle": false
+        "shuffle": true
     }
 }
