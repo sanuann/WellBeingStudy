@@ -2,15 +2,14 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/f499fdedc2947fc7f586775236e981cc44f10d45/activities/"
+            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/ef7496fdb15073bdb8282f85cfdeececc4a61ef3/activities/"
         }
     ],
     "@type": "reproschema:Protocol",
     "@id": "WellBeing_schema",
     "prefLabel": {
-        "en": "Wellness Challenge",
-        "es": "Desafío para el bienestar"
-    },
+        "en": "Wellness Challenge"
+        },
     "description": "Wellness Challenge",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
