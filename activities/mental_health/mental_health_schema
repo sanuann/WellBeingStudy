@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/49f4b1d16804705680e4b6a377c9641ebc33bc71/activities/"
+            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/832112e9e949b50c3e8e15958a22a9ba20492386/activities/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -51,6 +51,6 @@
             "activity_path:BFI-2-XS/BFI_schema",
             "activity_path:PC-PTSD-5/PC-PTSD-5_schema"
         ],
-        "shuffle": true
+        "shuffle": false
     }
 }
