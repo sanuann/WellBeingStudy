@@ -32,7 +32,7 @@
             {
                 "variableName": "PHQalcohol_10_schema",
                 "isAbout": "activity_path:PHQalcohol_10/PHQalcohol_10_schema",
-                "isVis": "PHQalcohol_9_schema == 1",
+                "isVis": "PHQalcohol_9_schema == 1"
             },
 	        {
                 "variableName": "BFI-2-XS_schema",
