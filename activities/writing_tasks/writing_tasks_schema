@@ -9,7 +9,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble": {
-        "en": "Write continuously and honestly, your answers will be anonymous, and don’t worry about grammar.",
+        "en": "Write freely and honestly, your answers will be anonymous, and don’t worry about grammar.",
         "es": ""
     },
     "ui": {
