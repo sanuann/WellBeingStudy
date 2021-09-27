@@ -42,7 +42,7 @@
 	        {
                 "variableName": "clinical_history_psychiatry_current",
                 "isAbout": "activity_path:clinical_history_psychiatry_current",
-                "isVis": "clinical_history_psychiatry.includes(-1)"
+                "isVis": "!clinical_history_psychiatry.includes(999)"
             },
             {
                 "variableName": "clinical_history_psychiatry_current_only_some",
