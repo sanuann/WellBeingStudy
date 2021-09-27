@@ -21,8 +21,8 @@
         "order": [
             "../activities/audio_check/audio_check_schema",
             "../activities/demographics_and_background/demographics_and_background_schema",
-            "../activities/wellbeing/wellbeing_schema",
             "../activities/voice_tasks/voice_tasks_schema",
+            "../activities/wellbeing/wellbeing_schema",
             "../activities/mental_health/mental_health_schema",
             "../activities/writing_tasks/writing_tasks_schema",
             "../activities/feedback/feedback_schema",
