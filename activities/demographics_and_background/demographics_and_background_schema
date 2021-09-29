@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/f499fdedc2947fc7f586775236e981cc44f10d45/activities/demographics_and_background_information_v1/items/"
+            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/79df67ab33369e596419734d1c2c53dcf2c4e528/activities/demographics_and_background_information_v1/items/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -42,7 +42,7 @@
 	        {
                 "variableName": "clinical_history_psychiatry_current",
                 "isAbout": "activity_path:clinical_history_psychiatry_current",
-                "isVis": "clinical_history_psychiatry.includes(-1)"
+                "isVis": true
             },
             {
                 "variableName": "clinical_history_psychiatry_current_only_some",
@@ -82,8 +82,8 @@
                 "isAbout": "activity_path:dialect"
             },
             {
-                "variableName": "education",
-                "isAbout": "activity_path:education"
+                "variableName": "education_2",
+                "isAbout": "activity_path:education_2"
             },
             {
                 "variableName": "employment",
@@ -128,20 +128,20 @@
             "activity_path:race_ethnicity_global_other",
             "activity_path:native_language_multiple",
             "activity_path:dialect",
-            "activity_path:education",
+            "activity_path:education_2",
             "activity_path:employment",
             "activity_path:employment_specify",
             "activity_path:relationship",
+            "activity_path:clinical_history_psychiatry",
+            "activity_path:clinical_history_psychiatry_other",
+              "activity_path:clinical_history_psychiatry_current",
+              "activity_path:clinical_history_psychiatry_current_only_some",
+              "activity_path:clinical_history_psychiatry_current_only_some_other",
+              "activity_path:clinical_history_psychiatry_treatment",
 	          "activity_path:clinical_history_neurology",
 	          "activity_path:clinical_history_neurology_other",
             "activity_path:clinical_history_voice",
             "activity_path:clinical_history_voice_other",
-            "activity_path:clinical_history_psychiatry",
-            "activity_path:clinical_history_psychiatry_other",
-	          "activity_path:clinical_history_psychiatry_current",
-	          "activity_path:clinical_history_psychiatry_current_only_some",
-	          "activity_path:clinical_history_psychiatry_current_only_some_other",
-	          "activity_path:clinical_history_psychiatry_treatment",
             "activity_path:respiratory_conditions",
             "activity_path:respiratory_conditions_specify",
             "activity_path:smoking"
