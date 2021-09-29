@@ -9,7 +9,9 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble": {
-        "en": "Write freely and honestly, your answers will be anonymous, and don’t worry about grammar.",
+        "en": "We're almost done. To finish, we now want to do a series of journaling exercises. We hope you enjoy them!
+
+        Write freely and honestly, your answers will be anonymous, and don’t worry about grammar.",
         "es": ""
     },
     "ui": {
