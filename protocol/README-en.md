@@ -1,7 +1,7 @@
 
 
 
-![Timeline](https://raw.githubusercontent.com/danielmlow/WellBeingStudy/master/protocol/wellbeing_logo.svg)
+![Timeline](https://raw.githubusercontent.com/danielmlow/WellBeingStudy/master/protocol/wellbeing_logo.pdf)
 
 In today's world of constant stress and distractions, can simple everyday practices really help us improve our wellbeing, allow us to better manage stress, increase productivity, and enhance our overall sense of calm and balance? 
 
