@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/f7d492f008f5f0c4d8e3be468e903454ddf3bd5d/activities/"
+            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/b832ea44585f5bf8321a0c2c1a021f23563383ba/activities/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -44,14 +44,14 @@
             }
         ],
         "order": [
-            "activity_path:SRIS-SF/SRIS-SF_schema",
             "activity_path:SFI/SFI_schema",
             "activity_path:LAS/LAS_schema",
             "activity_path:SCS-SF/SCS-SF_schema",
             "activity_path:MAAS/MAAS_schema",
+            "activity_path:SRIS-SF/SRIS-SF_schema",
             "activity_path:GQ-6/GQ6_schema",
             "activity_path:TEQ/TEQ_schema"
         ],
-        "shuffle": false
+        "shuffle": true
     }
 }
