@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/79df67ab33369e596419734d1c2c53dcf2c4e528/activities/demographics_and_background_information_v1/items/"
+            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/b832ea44585f5bf8321a0c2c1a021f23563383ba/activities/demographics_and_background_information_v1/items/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -20,6 +20,15 @@
             {
                 "variableName": "stateOfResidence",
                 "isAbout": "activity_path:stateOfResidence"
+            },
+            {
+                "variableName": "how_did_you_hear_about_study",
+                "isAbout": "activity_path:how_did_you_hear_about_study"
+            },
+            {
+                "variableName": "how_did_you_hear_about_study_other",
+                "isAbout": "activity_path:how_did_you_hear_about_study_other",
+                "isVis": "how_did_you_hear_about_study === -1"
             },
 	        {
                 "variableName": "clinical_history_neurology",
@@ -89,7 +98,6 @@
                 "variableName": "education_2_other",
                 "isAbout": "activity_path:education_2_other",
                 "isVis": "education_2 === -1"
-
             },
             {
                 "variableName": "employment",
