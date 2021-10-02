@@ -56,6 +56,8 @@ use `clinical_history_psychiatry.includes(-1)` instead of `===` since it is a mu
 and use `!clinical_history_psychiatry.includes(-1)` which starts with `!` to show item if it is false. 
 
 
+add a break line with html: `One line <br>Next line`
+
 
 ### Tests
 
