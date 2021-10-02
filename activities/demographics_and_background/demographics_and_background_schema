@@ -86,6 +86,12 @@
                 "isAbout": "activity_path:education_2"
             },
             {
+                "variableName": "education_2_other",
+                "isAbout": "activity_path:education_2_other",
+                "isVis": "education_2 === -1"
+
+            },
+            {
                 "variableName": "employment",
                 "isAbout": "activity_path:employment"
             },
