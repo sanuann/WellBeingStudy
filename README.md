@@ -6,7 +6,9 @@ Code to run the MIT Month of Wellness Challenge protocol using Reproschema.
 
 
 ### Instructions for making edits
-* For each commit, a github action will test the JSONLD code. to know where the error is, you can run the commands in subdirectories.
+* To quickly test you can go here: `https://www.repronim.org/reproschema-ui/#/?url=https://raw.githubusercontent.com/danielmlow/WellBeingStudy/master/protocol/WellBeing_schema` or replace your username and repo accordingly. 
+
+* To properly test, for each commit, a github action will test the JSONLD code. to know where the error is, you can run the commands in subdirectories.
 
     ```
     python -m pip install --upgrade pip setuptools
