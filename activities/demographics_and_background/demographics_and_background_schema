@@ -23,16 +23,16 @@
             },
             {
                 "variableName": "wellbeing_prizes_1",
-                "isAbout": "items/wellbeing_prizes/wellbeing_prizes_1_schema"
+                "isAbout": "items/wellbeing_prizes_1/wellbeing_prizes_1_schema"
             },
             {
                 "variableName": "wellbeing_prizes_2",
-                "isAbout": "items/wellbeing_prizes/wellbeing_prizes_2_schema",
+                "isAbout": "items/wellbeing_prizes_2/wellbeing_prizes_2_schema",
                 "isVis": "wellbeing_prizes_1 === 1"
             },
             {
                 "variableName": "wellbeing_prizes_3",
-                "isAbout": "items/wellbeing_prizes/wellbeing_prizes_3_schema",
+                "isAbout": "items/wellbeing_prizes_3/wellbeing_prizes_3_schema",
                 "isVis": "wellbeing_prizes_1 === 1"
             },
             {
