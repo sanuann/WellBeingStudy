@@ -1,0 +1,69 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "wellbeing_prizes_schema",
+    "prefLabel": {
+        "en": "Prizes",
+        "es": "Premios"
+    },
+    "description": "wellbeing_prizes_schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "",
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/wellbeing_prizes_1",
+                "variableName": "wellbeing_prizes_1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/wellbeing_prizes_2",
+                "variableName": "wellbeing_prizes_2",
+                "valueRequired": true,
+                "isVis": "wellbeing_prizes_1 === 1"
+            },
+            {
+                "isAbout": "items/wellbeing_prizes_3",
+                "variableName": "wellbeing_prizes_3",
+                "valueRequired": true,
+                "isVis": "wellbeing_prizes_1 === 1"
+            },
+            {
+                "isAbout": "items/wellbeing_prizes_4",
+                "variableName": "wellbeing_prizes_4",
+                "valueRequired": true,
+                "isVis": "wellbeing_prizes_1 === 1"
+            },
+            {
+                "isAbout": "items/wellbeing_prizes_5",
+                "variableName": "wellbeing_prizes_5",
+                "valueRequired": true,
+                "isVis": "wellbeing_prizes_1 === 1"
+            },
+            {
+                "isAbout": "items/wellbeing_prizes_6",
+                "variableName": "wellbeing_prizes_6",
+                "valueRequired": true,
+                "isVis": "wellbeing_prizes_1 === 1"
+            },
+            {
+                "isAbout": "items/wellbeing_prizes_7",
+                "variableName": "wellbeing_prizes_7",
+                "valueRequired": true,
+                "isVis": "wellbeing_prizes_1 === 1"
+            }
+        ],
+        "order": [
+            "items/wellbeing_prizes_1",
+            "items/wellbeing_prizes_2",
+            "items/wellbeing_prizes_3",
+            "items/wellbeing_prizes_4",
+            "items/wellbeing_prizes_5",
+            "items/wellbeing_prizes_6",
+            "items/wellbeing_prizes_7"
+        ],
+        "shuffle": false
+    }
+}
