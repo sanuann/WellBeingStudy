@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "wellbeing_prizes_3_schema",
+    "prefLabel": {
+        "en": "Prizes",
+        "es": "Premios"
+    },
+    "description": "wellbeing_prizes_schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "",
+    "preamble": {
+        "en": "If you complete 20+ days of activities and the outcome assessment (Day 30), you can win up to 3 prizes, because you also become eligible for an additional raffle which includes the following prizes. Please rank them in order of preference (1, 2 or 3), we'll show each prize in turn: $30 Amazon gift card, Mindfulness online writing course by Nadia Colburn, Meditation cushion (zafu) with MIT Meditation Lab logo."
+     },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/wellbeing_prizes_5",
+                "variableName": "wellbeing_prizes_5",
+                "valueRequired": true
+            },
+            {
+                "isAbout": "items/wellbeing_prizes_6",
+                "variableName": "wellbeing_prizes_6",
+                "valueRequired": true
+            },
+            {
+                "isAbout": "items/wellbeing_prizes_7",
+                "variableName": "wellbeing_prizes_7",
+                "valueRequired": true
+            }
+        ],
+        "order": [
+            "items/wellbeing_prizes_5",
+            "items/wellbeing_prizes_6",
+            "items/wellbeing_prizes_7"
+        ],
+        "shuffle": false
+    }
+}

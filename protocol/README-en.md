@@ -1,6 +1,6 @@
 
 
-<img src="https://raw.githubusercontent.com/danielmlow/WellBeingStudy/master/protocol/wellbeing_logo_amendment2_latest.svg" alt="drawing" width="500"/>
+<img src="https://raw.githubusercontent.com/danielmlow/WellBeingStudy/master/protocol/wellbeing_logo_amendment2_latest.svg" alt="drawing" width="600"/>
 
 [comment]: <> (![Timeline]&#40;https://raw.githubusercontent.com/danielmlow/WellBeingStudy/master/protocol/wellbeing_logo_amendment2_latest.svg&#41;)
 

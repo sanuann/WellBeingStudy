@@ -8,15 +8,15 @@
     "multipleChoice": false,
     "choices": [
             {
-                "name": "1",
+                "name": "",
                 "value": 1
             },
             {
-                "name": "2",
+                "name": "",
                 "value": 2
             },
             {
-                "name": "3",
+                "name": "",
                 "value": 3
             }
             ]
