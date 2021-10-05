@@ -127,8 +127,8 @@
                 "isAbout": "activity_path:gender_identity"
             },
             {
-                "variableName": "native_language_multiple",
-                "isAbout": "activity_path:native_language_multiple"
+                "variableName": "fluentLanguages",
+                "isAbout": "activity_path:fluentLanguages"
             },
             {
                 "variableName": "race_ethnicity_global",
@@ -157,7 +157,7 @@
             "activity_path:gender_identity",
             "activity_path:race_ethnicity_global",
             "activity_path:race_ethnicity_global_other",
-            "activity_path:native_language_multiple",
+            "activity_path:fluentLanguages",
             "activity_path:dialect",
             "activity_path:education_2",
             "activity_path:employment",
