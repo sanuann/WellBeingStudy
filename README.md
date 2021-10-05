@@ -6,7 +6,7 @@ Code to run the MIT Month of Wellness Challenge protocol using Reproschema.
 
 
 ### Instructions for making edits
-* To quickly test you can go here: `https://www.repronim.org/reproschema-ui/#/?url=https://raw.githubusercontent.com/danielmlow/WellBeingStudy/master/protocol/WellBeing_schema` or replace your username and repo accordingly. 
+* To quickly test you can go here: `https://www.repronim.org/reproschema-ui/#/?url=https://raw.githubusercontent.com/mentalwellbeing/WellBeingStudy/master/protocol/WellBeing_schema` or replace your username and repo accordingly. 
 
 * To properly test, for each commit, a github action will test the JSONLD code. to know where the error is, you can run the commands in subdirectories.
 
@@ -24,7 +24,7 @@ Code to run the MIT Month of Wellness Challenge protocol using Reproschema.
 * To display images, click on the image, click on "raw" and copy the URL into the file (e.g., the README-en.md for the landing page). 
     In Markdown: 
     
-    `![Timeline](https://raw.githubusercontent.com/danielmlow/WellBeingStudy/master/protocol/wellbeing_logo.svg)` 
+    `![Timeline](https://raw.githubusercontent.com/mentalwellbeing/WellBeingStudy/master/protocol/wellbeing_logo.svg)` 
     
     
     
