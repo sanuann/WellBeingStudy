@@ -16,25 +16,25 @@
     "ui": {
         "addProperties": [
             {
-                "isAbout": "items/wellbeing_prizes_2",
-                "variableName": "wellbeing_prizes_2",
+                "isAbout": "items/wellbeing_prizes_2_1",
+                "variableName": "wellbeing_prizes_2_1",
                 "valueRequired": true
             },
             {
-                "isAbout": "items/wellbeing_prizes_3",
-                "variableName": "wellbeing_prizes_3",
+                "isAbout": "items/wellbeing_prizes_2_2",
+                "variableName": "wellbeing_prizes_2_2",
                 "valueRequired": true
             },
             {
-                "isAbout": "items/wellbeing_prizes_4",
-                "variableName": "wellbeing_prizes_4",
+                "isAbout": "items/wellbeing_prizes_2_3",
+                "variableName": "wellbeing_prizes_2_3",
                 "valueRequired": true
             }
         ],
         "order": [
-            "items/wellbeing_prizes_2",
-            "items/wellbeing_prizes_3",
-            "items/wellbeing_prizes_4"
+            "items/wellbeing_prizes_2_1",
+            "items/wellbeing_prizes_2_2",
+            "items/wellbeing_prizes_2_3"
         ],
         "shuffle": false
     }

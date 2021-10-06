@@ -22,6 +22,16 @@
                 "isAbout": "items/wellbeing_prizes_1"
             },
             {
+                "variableName": "wellbeing_prizes_2_schema",
+                "isAbout": "items/wellbeing_prizes_2/wellbeing_prizes_2_schema",
+                "isVis": "wellbeing_prizes_1 === 1"
+            },
+            {
+                "variableName": "wellbeing_prizes_3_schema",
+                "isAbout": "items/wellbeing_prizes_3/wellbeing_prizes_3_schema",
+                "isVis": "wellbeing_prizes_1 === 1"
+            },
+            {
                 "variableName": "stateOfResidence",
                 "isAbout": "activity_path:stateOfResidence"
             },
@@ -141,6 +151,8 @@
         "order": [
             "items/yearOfBirth",
             "items/wellbeing_prizes_1",
+            "items/wellbeing_prizes_2/wellbeing_prizes_2_schema",
+            "items/wellbeing_prizes_3/wellbeing_prizes_3_schema",
             "activity_path:stateOfResidence",
             "activity_path:gender_identity",
             "activity_path:race_ethnicity_global",

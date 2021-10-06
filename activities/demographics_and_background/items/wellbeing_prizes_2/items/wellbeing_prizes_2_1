@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "wellbeing_prizes_3",
-    "prefLabel": "wellbeing_prizes_3",
-    "description": "wellbeing_prizes_3",
+    "@id": "wellbeing_prizes_2_1",
+    "prefLabel": "wellbeing_prizes_2_1",
+    "description": "wellbeing_prizes_2_1",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
      "question": {
-        "en": "Headphones"
+        "en": "$20 Amazon gift card"
      },
      "ui": {
         "inputType": "slider"

@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "wellbeing_prizes_2",
-    "prefLabel": "wellbeing_prizes_2",
-    "description": "wellbeing_prizes_2",
+    "@id": "wellbeing_prizes_2_3",
+    "prefLabel": "wellbeing_prizes_2_3",
+    "description": "wellbeing_prizes_2_3",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
      "question": {
-        "en": "$20 Amazon gift card"
+        "en": "Polaroid-style instant camera"
      },
      "ui": {
         "inputType": "slider"
