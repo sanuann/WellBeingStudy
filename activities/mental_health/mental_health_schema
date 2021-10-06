@@ -22,19 +22,6 @@
                 "isAbout": "activity_path:GAD7/GAD7_schema"
             },
 	        {
-                "variableName": "PHQeating_schema",
-                "isAbout": "activity_path:PHQeating/PHQeating_schema"
-            },
-	        {
-                "variableName": "PHQalcohol_9_schema",
-                "isAbout": "activity_path:PHQalcohol_9/PHQalcohol_9_schema"
-            },
-            {
-                "variableName": "PHQalcohol_10_schema",
-                "isAbout": "activity_path:PHQalcohol_10/PHQalcohol_10_schema",
-                "isVis": "PHQalcohol_9_schema == 1"
-            },
-	        {
                 "variableName": "BFI-2-XS_schema",
                 "isAbout": "activity_path:BFI-2-XS/BFI_schema"
             },
@@ -44,14 +31,11 @@
             }
         ],
         "order": [
-            "activity_path:PHQeating/PHQeating_schema",
-            "activity_path:PHQalcohol_9/PHQalcohol_9_schema",
-            "activity_path:PHQalcohol_10/PHQalcohol_10_schema",
             "activity_path:PHQ-9/PHQ9_schema",
             "activity_path:GAD7/GAD7_schema",
             "activity_path:BFI-2-XS/BFI_schema",
             "activity_path:PC-PTSD-5/PC-PTSD-5_schema"
         ],
-        "shuffle": false
+        "shuffle": true
     }
 }

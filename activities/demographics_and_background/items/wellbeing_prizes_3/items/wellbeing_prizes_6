@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "wellbeing_prizes_6",
+    "prefLabel": "wellbeing_prizes_6",
+    "description": "wellbeing_prizes_6",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+     "question": {
+        "en": "Mindfulness online writing course by Nadia Colburn"
+     },
+     "ui": {
+        "inputType": "slider"
+     },
+     "responseOptions": "../wellbeing_prizes_valueConstraints3"
+}

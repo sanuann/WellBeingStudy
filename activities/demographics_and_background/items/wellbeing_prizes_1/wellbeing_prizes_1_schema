@@ -1,0 +1,27 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "wellbeing_prizes_1_schema",
+    "prefLabel": {
+        "en": "Prizes",
+        "es": "Premios"
+    },
+    "description": "wellbeing_prizes_schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "",
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/wellbeing_prizes_1",
+                "variableName": "wellbeing_prizes_1",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/wellbeing_prizes_1"
+        ],
+        "shuffle": false
+    }
+}

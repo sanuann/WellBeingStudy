@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "voice_tasks": "https://raw.githubusercontent.com/danielmlow/reproschema-library/449f495d2f75f9b4ab25700ac99efcac685fa9da/activities/VoiceTask/items/"
+            "voice_tasks": "https://raw.githubusercontent.com/danielmlow/reproschema-library/4e1cccffabd7a8858c22c0e9a113ea0820257a27/activities/VoiceTask/items/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -40,6 +40,6 @@
 	        "voice_tasks:rainbow_passage_short_normal",
 	        "voice_tasks:animal_fluency"
         ],
-        "shuffle": false
+        "shuffle": true
     }
 }

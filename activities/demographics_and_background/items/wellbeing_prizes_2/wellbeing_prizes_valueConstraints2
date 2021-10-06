@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@id": "wellbeing_prizes_valueConstraints2",
+    "@type": "reproschema:ResponseOption",
+    "valueType": "xsd:integer",
+    "minValue": 1,
+    "maxValue": 3,
+    "multipleChoice": false,
+    "choices": [
+            {
+                "name": "",
+                "value": 1
+            },
+            {
+                "name": "",
+                "value": 2
+            },
+            {
+                "name": "",
+                "value": 3
+            }
+            ]
+}

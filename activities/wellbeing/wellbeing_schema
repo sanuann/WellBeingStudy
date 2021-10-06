@@ -25,7 +25,6 @@
                 "variableName": "SCS-SF",
                 "isAbout": "activity_path:SCS-SF/SCS-SF_schema"
             },
-
 	        {
                 "variableName": "MAAS",
                 "isAbout": "activity_path:MAAS/MAAS_schema"

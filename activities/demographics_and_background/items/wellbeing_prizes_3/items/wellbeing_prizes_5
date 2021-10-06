@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "wellbeing_prizes_5",
+    "prefLabel": "wellbeing_prizes_5",
+    "description": "wellbeing_prizes_5",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+     "question": {
+        "en": "$30 Amazon gift card"
+     },
+     "ui": {
+        "inputType": "slider"
+     },
+     "responseOptions": "../wellbeing_prizes_valueConstraints3"
+}
