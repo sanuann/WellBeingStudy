@@ -11,7 +11,7 @@ In today's world of constant stress and distractions, can simple everyday practi
 
 We are a team of scientists from the Massachusetts Institute of Technology (MIT) attempting to answer these questions. We seek to develop a structured approach to practicing and measuring wellbeing activities with new technology and a scientific approach.
 
-**Today's assessment will take around 25 minutes to complete. You'll need to do it in one sitting. If you close your browser, you'll have to restart the ongoing survey.**
+**Today's assessment should take less than 25 minutes to complete. You'll need to do it in one sitting. If you close your browser, you'll have to restart the ongoing survey.**
  
 
 

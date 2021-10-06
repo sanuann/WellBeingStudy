@@ -12,5 +12,5 @@
      "ui": {
         "inputType": "slider"
      },
-     "responseOptions": "../wellbeing_prizes_valueConstraints"
+     "responseOptions": "../wellbeing_prizes_valueConstraints3"
 }

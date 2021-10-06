@@ -40,6 +40,6 @@
 	        "voice_tasks:rainbow_passage_short_normal",
 	        "voice_tasks:animal_fluency"
         ],
-        "shuffle": false
+        "shuffle": true
     }
 }
