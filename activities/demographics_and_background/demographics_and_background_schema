@@ -18,6 +18,10 @@
                 "isAbout": "items/yearOfBirth"
             },
             {
+                "variableName": "wellbeing_prizes_1",
+                "isAbout": "items/wellbeing_prizes_1"
+            },
+            {
                 "variableName": "stateOfResidence",
                 "isAbout": "activity_path:stateOfResidence"
             },
@@ -136,6 +140,7 @@
         ],
         "order": [
             "items/yearOfBirth",
+            "items/wellbeing_prizes_1",
             "activity_path:stateOfResidence",
             "activity_path:gender_identity",
             "activity_path:race_ethnicity_global",
