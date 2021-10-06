@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "wellbeing_prizes_1",
+    "prefLabel": "wellbeing_prizes_1",
+    "description": "wellbeing_prizes_1",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "preamble": {
+        "en": "Prizes are only available for participants with US addresses. If you complete the two baseline assessments, you become eligible for participating in a raffle for $15 Amazon gift cards. If you complete daily activities you become eligible for even more raffles with better prizes."
+     },
+     "question": {
+        "en": "Do you have a US address and would you like to participate for a prize?"
+     },
+     "ui": {
+        "inputType": "radio"
+     },
+     "responseOptions": {
+             "valueType": "xsd:integer",
+             "minValue": 0,
+             "maxValue": 1,
+             "multipleChoice": false,
+    "choices": [
+        {
+            "name":
+                {
+                "en":"Yes",
+                "es":"Sí"
+                },
+            "value": 1
+        },
+        {
+            "name":
+                {
+                "en":"No",
+                "es":"No"
+                },
+            "value": 0
+        }
+        ]
+    }
+}

@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "wellbeing_prizes_4",
-    "prefLabel": "wellbeing_prizes_4",
-    "description": "wellbeing_prizes_4",
+    "@id": "wellbeing_prizes_2_2",
+    "prefLabel": "wellbeing_prizes_2_2",
+    "description": "wellbeing_prizes_2_2",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
      "question": {
-        "en": "Polaroid-style instant camera"
+        "en": "Headphones"
      },
      "ui": {
         "inputType": "slider"
