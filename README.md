@@ -4,8 +4,19 @@
 Code to run the MIT Month of Wellness Challenge protocol using Reproschema.
 
 
+# Copy this repo 
 
-### Instructions for making edits
+Go to setting and enable gh-pages:  
+
+![image](https://user-images.githubusercontent.com/14787791/139488527-fa70f042-8d8e-4f84-a1af-8be6396c2e6c.png)
+
+
+
+Then also edit `githubSrc` and `assetsPublicPath` in `.ui-changes/src/config.js` to this repo.
+
+
+
+# Instructions for making edits
 * To quickly test you can go here: 
 
 
